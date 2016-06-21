@@ -5,4 +5,9 @@ class Candy < FlyingItem
 def self.image_path
   'assets/images/candy.png'
 end
+
+def move!
+  @x -= 10
+
+end
 end

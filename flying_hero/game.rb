@@ -31,6 +31,7 @@ end
 		elsif button_down? (Gosu::KbDown)
 			@hero.move_down!(height)
 		end
+		@candy.move!
 	end
 
 
