@@ -23,6 +23,11 @@ end
 
 	def update
 		@background.scroll!
+		if button_down?(Gosu::KbUp)
+			@hero.move_up!
+		elsif button_down? (Gosu::KbDown)
+			@hero.move_down!(height)
+		end
 	end
 
 

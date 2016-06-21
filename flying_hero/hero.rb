@@ -13,4 +13,12 @@ class Hero
     sprite = @sprites[Gosu::milliseconds / 75% @sprites.size]
     sprite.draw(@x, @y, 1)
   end
+
+  def move_up!
+    @y -= 1 if (@y >= 0)
+  end
+
+  def move_down!(height)
+    @y += 1 if (@y <= height - @height)
+  end
 end
