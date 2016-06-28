@@ -15,10 +15,10 @@ class Hero
   end
 
   def move_up!
-    @y -= 1 if (@y >= 0)
+    @y -= 4 if (@y >= 0)
   end
 
   def move_down!(height)
-    @y += 1 if (@y <= height - @height)
+    @y += 4 if (@y <= height - @height)
   end
 end
