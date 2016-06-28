@@ -9,4 +9,8 @@ class AsteroidBig < Asteroid
     @scale_y = 2
   end
 
+  def move!
+    @x -= 15
+  end
+
 end
