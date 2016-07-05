@@ -8,6 +8,8 @@ end
 
 def move!
   @x -= 10
-
+end
+def points
+  15
 end
 end

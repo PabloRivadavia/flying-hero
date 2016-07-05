@@ -1,0 +1,22 @@
+COORDENADAS DEL HEROE
+
+hero_left = @x
+
+hero_right = @x + @width
+
+hero_top = @y
+
+hero_bottom = @y + @height
+
+
+COORDENADAS DEL CARAMELO
+
+object_left = @x
+
+object_right = @x + @width
+
+object_top = @y
+
+object_bottom = @y + @height
+
+Observacion: hacer visibles las propiedades necesarias del caramelo.

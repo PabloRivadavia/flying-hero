@@ -9,8 +9,11 @@ class Scoreboard
   def draw
       @font.draw(@score, 0, 0, 1)
 
+  def update_score!(points)
+   @score += points
+
 
     end
 
-
+end
 end

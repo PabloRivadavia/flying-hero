@@ -48,6 +48,10 @@ end
 		if (@asteroid.x < 0)
 			set_asteroid
 		end
+		if @hero.bumped_into?(@candy)
+			@candy.reset!(self)
+			@score.update_score!(@candy.points)
+		end
 	end
 
 		def set_asteroid
@@ -56,5 +60,4 @@ end
 		end
 
 	end
-
 
